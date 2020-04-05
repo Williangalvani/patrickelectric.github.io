@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Patrick José Pereira</title>
+        <link>https://patrickelectric.work</link>
+        <description>I am an Electronics Engineer that works with robotic systems, OSS and OSH.</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://patrickelectric.work/tags/gstreamer/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Sun, 05 Aug 2018 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>Streaming with gstreamer</title>
+                <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
+                <link>https://patrickelectric.work/blog/2018/streaming-with-gstreamer/</link>
+                <guid>https://patrickelectric.work/blog/2018/streaming-with-gstreamer/</guid>
+                <description>&lt;p&gt;Gtreamer is a great tool for everything that need to deal with video transmission, some things you can do with it:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add a subtitle while the video is streaming&lt;&#x2F;li&gt;
+&lt;li&gt;Get video from file, udp, or v4l and store or transmit it&lt;&#x2F;li&gt;
+&lt;li&gt;Get two webcam videos, mix both together in the the same stream (Creating a stereo image)&lt;&#x2F;li&gt;
+&lt;li&gt;A RTSP server&lt;&#x2F;li&gt;
+&lt;li&gt;And etc..&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

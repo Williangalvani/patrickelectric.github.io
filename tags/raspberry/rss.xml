@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Patrick José Pereira</title>
+        <link>https://patrickelectric.work</link>
+        <description>I am an Electronics Engineer that works with robotic systems, OSS and OSH.</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://patrickelectric.work/tags/raspberry/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Sun, 19 Aug 2018 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>Raspberry Pi with multiboot (multiple rootfs)</title>
+                <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+                <link>https://patrickelectric.work/blog/2018/raspberry-mult-boot/</link>
+                <guid>https://patrickelectric.work/blog/2018/raspberry-mult-boot/</guid>
+                <description>&lt;p&gt;One question that I receive (from my friends, myself and people that install archlinux at 3am) appears every time. &lt;em&gt;How to create a multiboot architecture inside a sdcard for the Raspberry Pi ?&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;After a boring day doing some unrelated stuff out of home, and with 1h free to do something before sleep and eating (heating my frozen lasagna), why not solving that &lt;del&gt;secular&lt;&#x2F;del&gt; question that follow me ?&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

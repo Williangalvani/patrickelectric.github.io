@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Patrick José Pereira</title>
+        <link>https://patrickelectric.work</link>
+        <description>I am an Electronics Engineer that works with robotic systems, OSS and OSH.</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://patrickelectric.work/tags/arduino/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Sun, 14 May 2017 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>LaKademy 2017</title>
+                <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
+                <link>https://patrickelectric.work/blog/2017/lakademy2017/</link>
+                <guid>https://patrickelectric.work/blog/2017/lakademy2017/</guid>
+                <description>&lt;p&gt;It was my first participation in a KDE sprint event, the famous LaKademy (Latin-America Akademy) in Brazil, Minas Gerais - Belo Horizonte. A great experience to talk, share and learn a bit more about KDE, coffee and software development.&lt;&#x2F;p&gt;
+&lt;p&gt;Next I&#x27;ll talk about some points of what I have done during the event.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>[GSoC] KDev-Embedded, OpenOCD and avrdude</title>
+                <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+                <link>https://patrickelectric.work/blog/2017/kdev-embedded-openocd-and-avrdude/</link>
+                <guid>https://patrickelectric.work/blog/2017/kdev-embedded-openocd-and-avrdude/</guid>
+                <description>&lt;p&gt;KDev-Embedded  now have OpenOCD integration and a new interface to use avrdude in launcher.&lt;&#x2F;p&gt;
+&lt;p&gt;With &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;sudar&#x2F;Arduino-Makefile&quot;&gt;Arduino-Makefile&lt;&#x2F;a&gt;, it&#x27;s possible to use a makefile to perform compilation of Arduino projects. In the video one the the examples are used to shows how it is possible to use the new avrdude launcher to execute the upload process.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>[GSoC] KDev-Embedded, workflow integration</title>
+                <pubDate>Mon, 30 Jan 2017 00:00:00 +0000</pubDate>
+                <link>https://patrickelectric.work/blog/2017/kdev-embedded-workflow-integration/</link>
+                <guid>https://patrickelectric.work/blog/2017/kdev-embedded-workflow-integration/</guid>
+                <description>&lt;p&gt;After some work in the plugin development, now the project have a strong focus in a better integration with KDevelop workflow. Until now the Board Configuration window have some simple features to perform the upload process for beginner users, it&#x27;s called by the &lt;em&gt;&lt;strong&gt;embedded&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; submenu in the KDevelop toolbar.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>[GSoC] KDev-Embedded, The alpha version is coming !</title>
+                <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
+                <link>https://patrickelectric.work/blog/2017/kdev-embedded-the-alpha-version-is-coming/</link>
+                <guid>https://patrickelectric.work/blog/2017/kdev-embedded-the-alpha-version-is-coming/</guid>
+                <description>&lt;p&gt;The GSoC plan to dominate the world of embedded system developments is near to have his first version !&lt;&#x2F;p&gt;
+&lt;p&gt;Today one of the most important steps was performed, the first upload to a microController. The code was a blink compiled with a makefile and uploaded with the KDev-Embedded plugin to an AVR microController (Arduino Nano board).&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>[GSoC] KDev-Embedded, Debugging and programming embedded systems</title>
+                <pubDate>Sat, 28 Jan 2017 00:00:00 +0000</pubDate>
+                <link>https://patrickelectric.work/blog/2017/kdev-embedded-debugging-and-programming-embedded-systems/</link>
+                <guid>https://patrickelectric.work/blog/2017/kdev-embedded-debugging-and-programming-embedded-systems/</guid>
+                <description>&lt;p&gt;The actual embedded system word depends on closed-source IDEs and libraries, with high monetary value and deprecated functionalities. Programmers that would like to use ARM based boards without paying for an IDE will have problems setting up such development ambient and synchronized toolkits.&lt;&#x2F;p&gt;
+&lt;p&gt;The main idea of this project is to provide a plugin integrated with KDevelop to help the debugging and programming process of embedded systems like AVR, ARM and x86 based boards.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

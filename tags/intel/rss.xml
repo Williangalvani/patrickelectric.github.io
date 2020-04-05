@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Patrick José Pereira</title>
+        <link>https://patrickelectric.work</link>
+        <description>I am an Electronics Engineer that works with robotic systems, OSS and OSH.</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://patrickelectric.work/tags/intel/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Fri, 09 Dec 2016 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>Starting with Intel® Edison Platform</title>
+                <pubDate>Fri, 09 Dec 2016 00:00:00 +0000</pubDate>
+                <link>https://patrickelectric.work/blog/2016/starting-with-intel-edison-platform/</link>
+                <guid>https://patrickelectric.work/blog/2016/starting-with-intel-edison-platform/</guid>
+                <description>&lt;p&gt;The Edison Platform is a little computer with all necessary system and hardware to provide a good experiment, we have: wi-fi, bluetooth, serial, io pins and alot more.&lt;&#x2F;p&gt;
+&lt;p&gt;As we see the Edson board is an x86-32 architecture, 4 gigabytes to store our files, 1 gigabyte of ram to execute our applications, 2 processing cores to allow the development of parallel programs. this is a development platform with higher performance compared to Respaberry Pi  and 1&#x2F;40 of its volume.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>The real tutorial for Galileo Gen 2 Board</title>
+                <pubDate>Fri, 09 Dec 2016 00:00:00 +0000</pubDate>
+                <link>https://patrickelectric.work/blog/2016/the-real-tutorial-for-galileo-gen-2-board/</link>
+                <guid>https://patrickelectric.work/blog/2016/the-real-tutorial-for-galileo-gen-2-board/</guid>
+                <description>&lt;p&gt;Some of the tutorials on the internet are outdated, and cause a lot of problems to start on the develop of the Galileo Gen 2 Board, to solve this, we will explain what you&#x27;ll need to do to make the best setup possible.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

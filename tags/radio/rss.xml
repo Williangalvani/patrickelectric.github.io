@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Patrick José Pereira</title>
+        <link>https://patrickelectric.work</link>
+        <description>I am an Electronics Engineer that works with robotic systems, OSS and OSH.</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://patrickelectric.work/tags/radio/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Sat, 10 Dec 2016 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>FM with IQ Demodulation</title>
+                <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
+                <link>https://patrickelectric.work/blog/2016/fm-demodulation/</link>
+                <guid>https://patrickelectric.work/blog/2016/fm-demodulation/</guid>
+                <description>&lt;p&gt;After some time reading about hacking RF signals:&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

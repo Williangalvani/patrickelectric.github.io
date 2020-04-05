@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Patrick José Pereira</title>
+        <link>https://patrickelectric.work</link>
+        <description>I am an Electronics Engineer that works with robotic systems, OSS and OSH.</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://patrickelectric.work/tags/3d-printing/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Mon, 30 Jan 2017 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>Graber i3 Tutorial - Finished !</title>
+                <pubDate>Mon, 30 Jan 2017 00:00:00 +0000</pubDate>
+                <link>https://patrickelectric.work/blog/2017/graber-i3-tutorial-finished/</link>
+                <guid>https://patrickelectric.work/blog/2017/graber-i3-tutorial-finished/</guid>
+                <description>&lt;p&gt;&lt;strong&gt;3D printing&lt;&#x2F;strong&gt;, also known as &lt;strong&gt;additive manufacturing (AM)&lt;&#x2F;strong&gt;, refers to various processes used to synthesize a &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Three-dimensional_space&quot;&gt;three-dimensional&lt;&#x2F;a&gt; object.&lt;sup id=&quot;cite_ref-engineer_1-0&quot; class=&quot;reference&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;3D_printing#cite_note-engineer-1&quot;&gt;[1]&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; In 3D printing, successive layers of material are formed under computer control to create an object.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

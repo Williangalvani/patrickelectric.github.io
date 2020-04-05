@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Patrick José Pereira</title>
+        <link>https://patrickelectric.work</link>
+        <description>I am an Electronics Engineer that works with robotic systems, OSS and OSH.</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://patrickelectric.work/tags/ch341a/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Tue, 21 Aug 2018 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>The magic &quot;CH341A USB to I2C&#x2F;IIC&#x2F;SPI&#x2F;UART&#x2F;TTL&#x2F;ISP&#x2F;GPIO adapter, EPP&#x2F;MEM parallel port converter!&quot;</title>
+                <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+                <link>https://patrickelectric.work/blog/2018/ch341a-dongle/</link>
+                <guid>https://patrickelectric.work/blog/2018/ch341a-dongle/</guid>
+                <description>&lt;p&gt;A &lt;del&gt;long&lt;&#x2F;del&gt; time ago I saw &lt;a href=&quot;https:&#x2F;&#x2F;hackaday.com&#x2F;2018&#x2F;02&#x2F;21&#x2F;linux-adds-ch341-gpio&#x2F;&quot;&gt;this in hackaday&lt;&#x2F;a&gt;, after investigation over it on internet, I decided to get one from &lt;a href=&quot;https:&#x2F;&#x2F;pt.aliexpress.com&#x2F;item&#x2F;ALL-IN-1-CH341A-USB-to-SPI-I2C-IIC-UART-TTL-ISP-Serial-Adapter-Module-EPP&#x2F;32878482645.html&quot;&gt;aliexpress&lt;&#x2F;a&gt; ($9).&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

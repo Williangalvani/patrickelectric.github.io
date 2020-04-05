@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Patrick José Pereira</title>
+        <link>https://patrickelectric.work</link>
+        <description>I am an Electronics Engineer that works with robotic systems, OSS and OSH.</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://patrickelectric.work/tags/atelier/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Sun, 02 Jul 2017 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>QT3D, Lines and AtCore</title>
+                <pubDate>Sun, 02 Jul 2017 00:00:00 +0000</pubDate>
+                <link>https://patrickelectric.work/blog/2017/qt3d-lines-atcore/</link>
+                <guid>https://patrickelectric.work/blog/2017/qt3d-lines-atcore/</guid>
+                <description>&lt;p&gt;After some time working with Qt3D, now Atelier project is one step closer to have a 3D viewer from the GCode and a realtime draw of printer work.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>LaKademy 2017</title>
+                <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
+                <link>https://patrickelectric.work/blog/2017/lakademy2017/</link>
+                <guid>https://patrickelectric.work/blog/2017/lakademy2017/</guid>
+                <description>&lt;p&gt;It was my first participation in a KDE sprint event, the famous LaKademy (Latin-America Akademy) in Brazil, Minas Gerais - Belo Horizonte. A great experience to talk, share and learn a bit more about KDE, coffee and software development.&lt;&#x2F;p&gt;
+&lt;p&gt;Next I&#x27;ll talk about some points of what I have done during the event.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

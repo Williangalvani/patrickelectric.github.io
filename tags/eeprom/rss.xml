@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Patrick José Pereira</title>
+        <link>https://patrickelectric.work</link>
+        <description>I am an Electronics Engineer that works with robotic systems, OSS and OSH.</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://patrickelectric.work/tags/eeprom/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Fri, 09 Dec 2016 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>FTDI problem: PID 0000</title>
+                <pubDate>Fri, 09 Dec 2016 00:00:00 +0000</pubDate>
+                <link>https://patrickelectric.work/blog/2016/ftdi-problem-pid-0000/</link>
+                <guid>https://patrickelectric.work/blog/2016/ftdi-problem-pid-0000/</guid>
+                <description>&lt;p&gt;On 29 September 2014, FTDI released an updated version of their USB-to-Serial driver, It was reported by some users that the updated can brick some fake FTDIs chips, by changing their ID to 0000. After some time, the windows update the version of the drive, now this problem is happening a lot in the last days.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>
