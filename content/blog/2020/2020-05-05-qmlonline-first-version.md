@@ -6,14 +6,14 @@ tags = [ "qml", "qt", "webasm", "web", "internet", "online" ]
 header = "/assets/qmlonline-first-version/banner.png"
 +++
 
-Finally, after working since October and learning a bunch about [WebAssembly](https://webassembly.org/), [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets), [HTML](https://wikipedia.org/wiki/HTML) (sad right ?) and [emscripten](https://emscripten.org/), I can happily announce a stable version of [qmlonline](https://patrickelectric.work/qmlonline/)!
+Finally, after working since October and learning a bunch about [WebAssembly](https://webassembly.org/), [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets), [HTML](https://wikipedia.org/wiki/HTML) (sad, right ?) and [emscripten](https://emscripten.org/), I can happily announce a stable version of [qmlonline](https://patrickelectric.work/qmlonline/)!
 In this post, I'm going to show the idea behind the project and some code that may help you with your future adventures.
 
 <!-- more -->
 
 # The initial steps
 
-Everything starts with [QHot](https://github.com/patrickelectric/qhot), that I describe as _"Hot reload for nested QML files"_, a useful tool for anyone that likes to prototype UI elements or ideas with a real-time feedback of what you are typing in QML. I have identified that compiling the project or recalling qml/qmlscene tools just to test and check my ideas was a bit annoying and started to be time-consuming, the desire to have something like [godbolt](https://godbolt.org/) or [quick-bench](http://quick-bench.com/) started to grow. My objective was something that was closer to these tools but for QML development, and that is how **QHot** was born.
+Everything starts with [QHot](https://github.com/patrickelectric/qhot), that I describe as _"Hot reload for nested QML files"_, a useful tool for anyone that likes to prototype UI elements or ideas with a real-time feedback of what you are typing in QML. I noticed that compiling the project or recalling qml/qmlscene tools just to test and check my ideas was pretty annoying and time-consuming, the desire to have something like [godbolt](https://godbolt.org/) or [quick-bench](http://quick-bench.com/) started growing. My objective was something that was closer to these tools but for QML development, and that is how **QHot** was born.
 
 ![image](https://raw.githubusercontent.com/patrickelectric/qhot/master/doc/example.gif)
 
@@ -30,14 +30,14 @@ The initial version was entirely made with QML, without HTML components, the edi
 
 ![image](/assets/qmlonline-first-version/full-qml.png)
 
-With the initial version working, I started to move the interface to HTML, this was necessary to have a better shortcut handle system and a better integration with the browser for user inputs.
+With the initial version working, I started to move the interface to HTML, this was necessary to have a better shortcut handling system and a better integration with the browser for user inputs.
 
-The code moved from a simple **TextEdit** with some controls to a full HTML interface, for that, it was necessary to add some functions to help with the webassembly code to be accessible from the webpage.
+The code evolved from a simple **TextEdit** with some controls to a full HTML interface, for that, functions had to be imlpemented to help with the webassembly code to be accessible from the webpage.
 
-From the beginning, I had an initial singleton class called **Util** that was created to be some kind of helper class for the QML code. This same class was used to create the interface between the JS and the webassembly via emscripten.
+From the beginning, I had an initial singleton class called **Util** that was conceived to be some kind of helper class for the QML code. This same class was used to create the interface between the JS and the webassembly via emscripten.
 
 In general, two functions were created, `std::string Util::codeEMS() const` that returns the code that is being used in the QML to render the user component, and `void Util::setCodeEMS(const std::string& code)` that sets the code that should be rendered.
-To access both functions and the class, it was necessary to use [EMSCRIPTEN_BINDINGS](https://emscripten.org/docs/porting/connecting_cpp_and_javascript/embind.html).
+To access both functions and the class, [EMSCRIPTEN_BINDINGS](https://emscripten.org/docs/porting/connecting_cpp_and_javascript/embind.html) were used.
 
 ```cpp
 #include <emscripten/bind.h>
@@ -89,7 +89,7 @@ Oh, [you can check the source code here](https://github.com/patrickelectric/qmlo
 
 To build the project, I changed my approach a couple of times.
 For the first test version, I did my development based in the official documents for [Qt webassembly](https://doc.qt.io/qt-5/wasm.html). But, compiling Qt for each machine that I use was a bit of a pain, so I started to use a docker available from this [Qt blog post](https://www.qt.io/blog/2019/03/05/using-docker-test-qt-webassembly).
-And everything was great until newer versions of Qt and emscript started to be available, and after some time searching, I found this great [repository/developer](https://hub.docker.com/r/madmanfred/qt-webassembly/tags) with a couple of Qt containers for webassembly and different emscript versions.
+And everything was great until newer versions of Qt and emscript were released, and after some time searching, I found this great [repository/developer](https://hub.docker.com/r/madmanfred/qt-webassembly/tags) with a couple of Qt containers for webassembly and different emscript versions.
 
 And after building the project, you can always test it with `python3 -m http.server`.
 
@@ -99,7 +99,7 @@ And after building the project, you can always test it with `python3 -m http.ser
 
 As you can see from the gif, the basic functionality is still the same from the original version, that was full QML.
 
-The user experience was improved, the interface is now much smoothly compare to the full QML version. Qt webassembly is great, but from my tests, the performance was not good and the browser/system integration should be improve to have the same functionality as a normal webpage or application.
+The user experience has improved, the interface is now much smoother compared to the full QML version. Qt webassembly is great, but from my tests, the performance was not good and the browser/system integration needs improvement to have the same functionality as a normal webpage or application.
 
 Again, remember to check [qmlonline](https://patrickelectric.work/qmlonline/) in your browser :)
 
